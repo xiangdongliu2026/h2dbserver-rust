@@ -1,0 +1,9 @@
+[package]
+name = "h2mv-inspect"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+h2mv-reader = { path = "../h2mv-reader" }

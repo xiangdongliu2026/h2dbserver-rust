@@ -1,0 +1,11 @@
+[package]
+name = "h2mv-reader"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+h2mv-format = { path = "../h2mv-format" }
+thiserror.workspace = true
+fs2.workspace = true
